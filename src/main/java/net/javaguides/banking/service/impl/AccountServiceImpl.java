@@ -88,10 +88,11 @@ public class AccountServiceImpl implements AccountService {
                 .orElseThrow(() -> new RuntimeException("Account Does not exists"));
 
         accountRepository.deleteById(id);
-
         // no return because it is a void!
 
     }
+
+    // Automatic tests:
 
 
 }
