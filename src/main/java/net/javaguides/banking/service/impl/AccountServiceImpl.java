@@ -92,7 +92,8 @@ public class AccountServiceImpl implements AccountService {
 
     }
 
-    // Automatic tests:
+    // Automatic tests: test 1
+
 
 
 }
